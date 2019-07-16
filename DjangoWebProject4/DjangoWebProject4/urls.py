@@ -28,4 +28,5 @@ import APItest.views
 urlpatterns = [
     url(r'^$', APItest.views.index, name='index'),
     url(r'^home$', APItest.views.index, name='home'),
+	url(r'^about$', APItest.views.about, name='about'),
 ]

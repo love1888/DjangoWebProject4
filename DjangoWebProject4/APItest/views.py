@@ -19,14 +19,25 @@ def index(request):
 
 	return render(
 		request,
-		"APItest/index.html", 
-		
+		"APItest/index.html",
 		{
 			'title' : "Hello Django",
 			'message' : "Hello Django!",
 			'content' : " on " + now.strftime("%A, %d %B, %Y at %X")
 		}
 	)
+
+def about(request):
+
+	return render(
+		request,
+		"APItest/about.html",
+		{
+		'title' : "About HelloDjangoApp",
+		'content' : "Example app page for Django."
+		}
+
+)
 
 
 	
