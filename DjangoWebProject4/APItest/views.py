@@ -4,4 +4,17 @@ from django.http import HttpResponse
 from datetime import datetime
 
 def index(request):
-	return HttpResponse("Hello, Django!")
+	now = datetime.now()
+
+	return render(
+		request,
+		"APItest/index.html", # Relative path from the 'templates' folder to the template file
+		# "index.html", # Use this code for VS 2017 15.7 and earlier
+		{
+			'content': "<strong>Hello Django!</strong> on " + now.strftime("%A, %d %B, %Y at %X")
+		}
+	)
+
+
+
+	
