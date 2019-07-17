@@ -29,4 +29,5 @@ urlpatterns = [
     url(r'^$', APItest.views.index, name='index'),
     url(r'^home$', APItest.views.index, name='home'),
 	url(r'^about$', APItest.views.about, name='about'),
+	url(r'^layout$', APItest.views.about, name='layout'),
 ]

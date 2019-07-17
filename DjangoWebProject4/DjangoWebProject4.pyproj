@@ -46,6 +46,7 @@
     <Content Include="APItest\static\site.css" />
     <Content Include="APItest\templates\APItest\about.html" />
     <Content Include="APItest\templates\APItest\index.html" />
+    <Content Include="APItest\templates\APItest\layout.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
