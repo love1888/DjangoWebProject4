@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoWebProject4", "DjangoWebProject4\DjangoWebProject4.pyproj", "{2402C9B4-3344-4A23-9D30-2123A1DDBDAD}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MyDjangoWeb", "MyDjangoWeb\MyDjangoWeb.pyproj", "{E3EB01FC-1180-4562-AA7F-8649DB9D1278}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DjangoPolls", "DjangoPolls\DjangoPolls.pyproj", "{6BB7DCA3-C618-408F-82E5-DFB0222728E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2402C9B4-3344-4A23-9D30-2123A1DDBDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2402C9B4-3344-4A23-9D30-2123A1DDBDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2402C9B4-3344-4A23-9D30-2123A1DDBDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3EB01FC-1180-4562-AA7F-8649DB9D1278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3EB01FC-1180-4562-AA7F-8649DB9D1278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3EB01FC-1180-4562-AA7F-8649DB9D1278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3EB01FC-1180-4562-AA7F-8649DB9D1278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB7DCA3-C618-408F-82E5-DFB0222728E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB7DCA3-C618-408F-82E5-DFB0222728E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB7DCA3-C618-408F-82E5-DFB0222728E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB7DCA3-C618-408F-82E5-DFB0222728E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
